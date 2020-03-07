@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial">
+      <UniqueIdentifier>{3e2905ed-2d9a-44e2-b4da-49b05e1530c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Character">
+      <UniqueIdentifier>{22a19f7f-2202-4f92-a556-442774e0d531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Character\Enemy">
+      <UniqueIdentifier>{6514edda-e6e0-4da0-9567-cc0513779fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Character\Player">
+      <UniqueIdentifier>{9615b85a-935c-4dfe-b0d9-f96aaae6c0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\HitBox">
+      <UniqueIdentifier>{0896d524-f9b4-4fb3-9212-b901ca690a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Item">
+      <UniqueIdentifier>{a6920119-c435-4908-91fd-451f7cb0e308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{4c10ec65-abd6-4b30-ab0d-8802dbffebfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Floor">
+      <UniqueIdentifier>{d4e3f808-4be5-43ed-b70b-4e0c9abd5a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Stairs">
+      <UniqueIdentifier>{5733bf7e-e3bc-4fba-8472-b7b647c72ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Stage">
+      <UniqueIdentifier>{785b7b78-6b39-42b8-9aa2-bf31980e7844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Obstacle">
+      <UniqueIdentifier>{bb16b63f-a180-4242-bfbb-145d271c1318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Character\Weapon">
+      <UniqueIdentifier>{5c8dea2d-fff1-411e-a7e2-d6e0968f1d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Save_Load">
+      <UniqueIdentifier>{c1e4f5b0-0132-4357-9a9a-384e5b323685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ScreenMaterial">
+      <UniqueIdentifier>{cc221f3e-232b-4528-af42-e00c47bf0f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FieldMaterial\Trap">
+      <UniqueIdentifier>{8338d221-8e72-440d-8389-2dd19a7405ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageDisplay.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMaterial.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDatas.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDirectionGetter.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerItems.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerKeyConfig.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterMoveDistance.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="AbnormalState.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleCreater.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox.cpp">
+      <Filter>ソース ファイル\FieldMaterial\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAbility.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction_AngleConverter.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthItem.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScreen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterType.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="StatesPoint.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemListScreen.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveType.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveType_RotateConverter.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldLength.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorOfTheDungeon.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldType.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionConverter.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneUpdater.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnController.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageDataLoader.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>ソース ファイル\Save_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordOfTheTree.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenMaterial.cpp">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_3D_Duplicate.cpp">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_3D.cpp">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_2D.cpp">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRead.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFollow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonLength.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackScreen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpper.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWarehouse.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StartingPreparation.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideAnimation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpAnimation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyConfigScreen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectUpdater.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpEffect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMove.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNames.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MessgeBox.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCounter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Mimic.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponWarehouse.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFloorOfTheDungeon.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CurorThereIsALimit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataWrite.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveBook.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipScreen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWeapons.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponType.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBoxUpdater.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WearProtective.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WitchWearProtective.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWearProtective.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WearWarehouse.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Ankou.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Doraki.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Hana.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Kingsuraimu.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Kasya.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Juggler.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BookMonster.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Miyamoto.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallAnimal.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallBird.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterData.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameBall.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterBall.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ice.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SubjectivityCamera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorObject_3D_Duplicate.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasureChest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LeatherSuit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStandardWeapon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Needle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringThrowType.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Witch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DropWeapon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DropWear.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffBookMonster.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffEgg.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffGolem.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffMimic.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffMushroom.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffSmallAnimal.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffSmallBird.cpp">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraken.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dark.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordsMan.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionConverter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScreen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageDisplay.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldMaterial.h">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="AbnormalState.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterMoveDistance.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAbility.h">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthItem.h">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterType.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>ソース ファイル\FieldMaterial\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="StatesPoint.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorOfTheDungeon.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldLength.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldType.h">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>ソース ファイル\FieldMaterial\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion.h">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerKeyConfig.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerItems.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDirectionGetter.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDatas.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnController.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageDataLoader.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneUpdater.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>ソース ファイル\FieldMaterial\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordOfTheTree.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenMaterial.h">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.h">
+      <Filter>ソース ファイル\Save_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveType.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveType_RotateConverter.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction_AngleConverter.h">
+      <Filter>ソース ファイル\FieldMaterial\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>ソース ファイル\FieldMaterial\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_3D_Duplicate.h">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_3D.h">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_2D.h">
+      <Filter>ソース ファイル\ScreenMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemListScreen.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRead.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonLength.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFollow.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackScreen.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpper.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWarehouse.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StartingPreparation.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Opening.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideAnimation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpAnimation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyConfigScreen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectUpdater.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpEffect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMove.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNames.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCounter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Ice.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MessgeBox.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Mimic.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>ソース ファイル\FieldMaterial\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>ソース ファイル\FieldMaterial\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFloorOfTheDungeon.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CurorThereIsALimit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DataWrite.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveBook.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipScreen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWeapons.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponType.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBoxUpdater.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WearProtective.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WitchWearProtective.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Doraki.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWearProtective.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Ankou.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hana.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Kingsuraimu.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Kasya.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Juggler.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BookMonster.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Miyamoto.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallAnimal.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallBird.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterData.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="WearWarehouse.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponWarehouse.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DropWeapon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameBall.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterBall.h">
+      <Filter>ソース ファイル\FieldMaterial\Character\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectivityCamera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorObject_3D_Duplicate.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasureChest.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LeatherSuit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStandardWeapon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DropWear.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Needle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringThrowType.h">
+      <Filter>ソース ファイル\FieldMaterial\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleCreater.h">
+      <Filter>ソース ファイル\FieldMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffBookMonster.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffEgg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffGolem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffMimic.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffMushroom.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffSmallAnimal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffSmallBird.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Kraken.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dark.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordsMan.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbnormalState.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Ankou.cpp" />
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="BlackScreen.cpp" />
+    <ClCompile Include="BookMonster.cpp" />
+    <ClCompile Include="BossFloorOfTheDungeon.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CharacterData.cpp" />
+    <ClCompile Include="CharacterMoveDistance.cpp" />
+    <ClCompile Include="CharacterType.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CurorThereIsALimit.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="DamageDisplay.cpp" />
+    <ClCompile Include="Dark.cpp" />
+    <ClCompile Include="DataRead.cpp" />
+    <ClCompile Include="DataWrite.cpp" />
+    <ClCompile Include="DiffBookMonster.cpp" />
+    <ClCompile Include="DiffEgg.cpp" />
+    <ClCompile Include="DiffGolem.cpp" />
+    <ClCompile Include="DiffMimic.cpp" />
+    <ClCompile Include="DiffMushroom.cpp" />
+    <ClCompile Include="DiffSmallAnimal.cpp" />
+    <ClCompile Include="DiffSmallBird.cpp" />
+    <ClCompile Include="Direction.cpp" />
+    <ClCompile Include="Direction_AngleConverter.cpp" />
+    <ClCompile Include="Doraki.cpp" />
+    <ClCompile Include="DropWeapon.cpp" />
+    <ClCompile Include="DropWear.cpp" />
+    <ClCompile Include="DungeonLength.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectUpdater.cpp" />
+    <ClCompile Include="Egg.cpp" />
+    <ClCompile Include="Ending.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyStandardWeapon.cpp" />
+    <ClCompile Include="EquipScreen.cpp" />
+    <ClCompile Include="ExpEffect.cpp" />
+    <ClCompile Include="FieldLength.cpp" />
+    <ClCompile Include="FieldType.cpp" />
+    <ClCompile Include="FirstPersonCamera.cpp" />
+    <ClCompile Include="FlameBall.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="FloorObject_3D_Duplicate.cpp" />
+    <ClCompile Include="FloorOfTheDungeon.cpp" />
+    <ClCompile Include="FrameCounter.cpp" />
+    <ClCompile Include="Golem.cpp" />
+    <ClCompile Include="Hana.cpp" />
+    <ClCompile Include="HandleCreater.cpp" />
+    <ClCompile Include="HealthItem.cpp" />
+    <ClCompile Include="HitBox.cpp" />
+    <ClCompile Include="HitBoxUpdater.cpp" />
+    <ClCompile Include="Ice.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemAbility.cpp" />
+    <ClCompile Include="ItemListScreen.cpp" />
+    <ClCompile Include="ItemWarehouse.cpp" />
+    <ClCompile Include="Juggler.cpp" />
+    <ClCompile Include="Kasya.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="KeyConfigScreen.cpp" />
+    <ClCompile Include="Kingsuraimu.cpp" />
+    <ClCompile Include="Kraken.cpp" />
+    <ClCompile Include="LeatherSuit.cpp" />
+    <ClCompile Include="LevelUpper.cpp" />
+    <ClCompile Include="LoadScreen.cpp" />
+    <ClCompile Include="MessgeBox.cpp" />
+    <ClCompile Include="Mimic.cpp" />
+    <ClCompile Include="Miyamoto.cpp" />
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="MoveType.cpp" />
+    <ClCompile Include="MoveType_RotateConverter.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="Needle.cpp" />
+    <ClCompile Include="NormalEnemy.cpp" />
+    <ClCompile Include="Object_2D.cpp" />
+    <ClCompile Include="Object_3D_Duplicate.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="Opening.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="FieldMaterial.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="Object_3D.cpp" />
+    <ClCompile Include="PlayerDatas.cpp" />
+    <ClCompile Include="PlayerDirectionGetter.cpp" />
+    <ClCompile Include="PlayerFollow.cpp" />
+    <ClCompile Include="PlayerItems.cpp" />
+    <ClCompile Include="PlayerKeyConfig.cpp" />
+    <ClCompile Include="PlayerWeapons.cpp" />
+    <ClCompile Include="PlayerWearProtective.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="PositionController.cpp" />
+    <ClCompile Include="PositionConverter.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="RandomMove.cpp" />
+    <ClCompile Include="Save.cpp" />
+    <ClCompile Include="SaveBook.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneNames.cpp" />
+    <ClCompile Include="SceneUpdater.cpp" />
+    <ClCompile Include="ScreenMaterial.cpp" />
+    <ClCompile Include="SlideAnimation.cpp" />
+    <ClCompile Include="SmallAnimal.cpp" />
+    <ClCompile Include="SmallBird.cpp" />
+    <ClCompile Include="Spring.cpp" />
+    <ClCompile Include="SpringThrowType.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StageDataLoader.cpp" />
+    <ClCompile Include="StageSelect.cpp" />
+    <ClCompile Include="Stairs.cpp" />
+    <ClCompile Include="StartingPreparation.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StatesPoint.cpp" />
+    <ClCompile Include="SubjectivityCamera.cpp" />
+    <ClCompile Include="SwordOfTheTree.cpp" />
+    <ClCompile Include="SwordsMan.cpp" />
+    <ClCompile Include="Thunder.cpp" />
+    <ClCompile Include="Trap.cpp" />
+    <ClCompile Include="TreasureChest.cpp" />
+    <ClCompile Include="TurnController.cpp" />
+    <ClCompile Include="Tutorial.cpp" />
+    <ClCompile Include="TutorialEnemy.cpp" />
+    <ClCompile Include="WarpAnimation.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="WaterBall.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponType.cpp" />
+    <ClCompile Include="WeaponWarehouse.cpp" />
+    <ClCompile Include="WearProtective.cpp" />
+    <ClCompile Include="WearWarehouse.cpp" />
+    <ClCompile Include="Witch.cpp" />
+    <ClCompile Include="WitchWearProtective.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbnormalState.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Ankou.h" />
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="BlackScreen.h" />
+    <ClInclude Include="BookMonster.h" />
+    <ClInclude Include="BossFloorOfTheDungeon.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CharacterData.h" />
+    <ClInclude Include="CharacterMoveDistance.h" />
+    <ClInclude Include="CharacterType.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CurorThereIsALimit.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="DamageDisplay.h" />
+    <ClInclude Include="Dark.h" />
+    <ClInclude Include="DataRead.h" />
+    <ClInclude Include="DataWrite.h" />
+    <ClInclude Include="DiffBookMonster.h" />
+    <ClInclude Include="DiffEgg.h" />
+    <ClInclude Include="DiffGolem.h" />
+    <ClInclude Include="DiffMimic.h" />
+    <ClInclude Include="DiffMushroom.h" />
+    <ClInclude Include="DiffSmallAnimal.h" />
+    <ClInclude Include="DiffSmallBird.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="Direction_AngleConverter.h" />
+    <ClInclude Include="Doraki.h" />
+    <ClInclude Include="DropWeapon.h" />
+    <ClInclude Include="DropWear.h" />
+    <ClInclude Include="DungeonLength.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectUpdater.h" />
+    <ClInclude Include="Egg.h" />
+    <ClInclude Include="Ending.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyStandardWeapon.h" />
+    <ClInclude Include="EquipScreen.h" />
+    <ClInclude Include="ExpEffect.h" />
+    <ClInclude Include="FieldLength.h" />
+    <ClInclude Include="FieldType.h" />
+    <ClInclude Include="FirstPersonCamera.h" />
+    <ClInclude Include="FlameBall.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="FloorObject_3D_Duplicate.h" />
+    <ClInclude Include="FloorOfTheDungeon.h" />
+    <ClInclude Include="FrameCounter.h" />
+    <ClInclude Include="Golem.h" />
+    <ClInclude Include="Hana.h" />
+    <ClInclude Include="HandleCreater.h" />
+    <ClInclude Include="HealthItem.h" />
+    <ClInclude Include="HitBox.h" />
+    <ClInclude Include="HitBoxUpdater.h" />
+    <ClInclude Include="Ice.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemAbility.h" />
+    <ClInclude Include="ItemListScreen.h" />
+    <ClInclude Include="ItemWarehouse.h" />
+    <ClInclude Include="Juggler.h" />
+    <ClInclude Include="Kasya.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="KeyConfigScreen.h" />
+    <ClInclude Include="Kingsuraimu.h" />
+    <ClInclude Include="Kraken.h" />
+    <ClInclude Include="LeatherSuit.h" />
+    <ClInclude Include="LevelUpper.h" />
+    <ClInclude Include="LoadScreen.h" />
+    <ClInclude Include="MessgeBox.h" />
+    <ClInclude Include="Mimic.h" />
+    <ClInclude Include="Miyamoto.h" />
+    <ClInclude Include="Motion.h" />
+    <ClInclude Include="MoveType.h" />
+    <ClInclude Include="MoveType_RotateConverter.h" />
+    <ClInclude Include="Mushroom.h" />
+    <ClInclude Include="Needle.h" />
+    <ClInclude Include="NormalEnemy.h" />
+    <ClInclude Include="Object_2D.h" />
+    <ClInclude Include="Object_3D_Duplicate.h" />
+    <ClInclude Include="Obstacle.h" />
+    <ClInclude Include="Opening.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="FieldMaterial.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="Object_3D.h" />
+    <ClInclude Include="PlayerDatas.h" />
+    <ClInclude Include="PlayerDirectionGetter.h" />
+    <ClInclude Include="PlayerFollow.h" />
+    <ClInclude Include="PlayerItems.h" />
+    <ClInclude Include="PlayerKeyConfig.h" />
+    <ClInclude Include="PlayerWeapons.h" />
+    <ClInclude Include="PlayerWearProtective.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="PositionController.h" />
+    <ClInclude Include="PositionConverter.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="RandomMove.h" />
+    <ClInclude Include="Save.h" />
+    <ClInclude Include="SaveBook.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneNames.h" />
+    <ClInclude Include="SceneUpdater.h" />
+    <ClInclude Include="ScreenMaterial.h" />
+    <ClInclude Include="SlideAnimation.h" />
+    <ClInclude Include="SmallAnimal.h" />
+    <ClInclude Include="SmallBird.h" />
+    <ClInclude Include="Spring.h" />
+    <ClInclude Include="SpringThrowType.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StageDataLoader.h" />
+    <ClInclude Include="StageSelect.h" />
+    <ClInclude Include="Stairs.h" />
+    <ClInclude Include="StartingPreparation.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StatesPoint.h" />
+    <ClInclude Include="SubjectivityCamera.h" />
+    <ClInclude Include="SwordOfTheTree.h" />
+    <ClInclude Include="SwordsMan.h" />
+    <ClInclude Include="Thunder.h" />
+    <ClInclude Include="Trap.h" />
+    <ClInclude Include="TreasureChest.h" />
+    <ClInclude Include="TurnController.h" />
+    <ClInclude Include="Tutorial.h" />
+    <ClInclude Include="TutorialEnemy.h" />
+    <ClInclude Include="WarpAnimation.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="WaterBall.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponType.h" />
+    <ClInclude Include="WeaponWarehouse.h" />
+    <ClInclude Include="WearProtective.h" />
+    <ClInclude Include="WearWarehouse.h" />
+    <ClInclude Include="Witch.h" />
+    <ClInclude Include="WitchWearProtective.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6BBD2BD0-8B6F-45E7-8AD3-DF332FD17CA9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Win32Project2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

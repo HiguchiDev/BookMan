@@ -1,0 +1,168 @@
+﻿2016/03/02 16:05:59 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\TAKASHI\Documents\seminalpro\Win32Project2.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Character.cpp GameApp.cpp Player.cpp PlayerItems.cpp Stage.cpp StageDataLoader.cpp Stairs.cpp Tutorial.cpp
+         Character.cpp
+         GameApp.cpp
+     1>GameApp.cpp(111): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>GameApp.cpp(124): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>GameApp.cpp(133): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>GameApp.cpp(139): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         Player.cpp
+         PlayerItems.cpp
+     1>PlayerItems.cpp(22): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>PlayerItems.cpp(37): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>PlayerItems.cpp(59): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         Stage.cpp
+         StageDataLoader.cpp
+         Stairs.cpp
+         Tutorial.cpp
+     1>Tutorial.cpp(233): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TAKASHI\Documents\seminalpro\Release\Win32Project2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\TAKASHI\Documents\seminalpro\Release\Win32Project2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TAKASHI\Documents\seminalpro\Release\Win32Project2.lib" /MACHINE:X86 /SAFESEH Release\AbnormalState.obj
+         Release\Action.obj
+         Release\Animation.obj
+         Release\Ankou.obj
+         Release\BezierCurve.obj
+         Release\BlackScreen.obj
+         Release\BookMonster.obj
+         Release\BossFloorOfTheDungeon.obj
+         Release\Camera.obj
+         Release\Character.obj
+         Release\CharacterData.obj
+         Release\CharacterMoveDistance.obj
+         Release\CharacterType.obj
+         Release\Collision.obj
+         Release\CurorThereIsALimit.obj
+         Release\Cursor.obj
+         Release\DamageDisplay.obj
+         Release\Dark.obj
+         Release\DataRead.obj
+         Release\DataWrite.obj
+         Release\DiffBookMonster.obj
+         Release\DiffEgg.obj
+         Release\DiffGolem.obj
+         Release\DiffMimic.obj
+         Release\DiffMushroom.obj
+         Release\DiffSmallAnimal.obj
+         Release\DiffSmallBird.obj
+         Release\Direction.obj
+         Release\Direction_AngleConverter.obj
+         Release\Doraki.obj
+         Release\DropWeapon.obj
+         Release\DropWear.obj
+         Release\DungeonLength.obj
+         Release\Effect.obj
+         Release\EffectUpdater.obj
+         Release\Egg.obj
+         Release\Ending.obj
+         Release\Enemy.obj
+         Release\EnemyStandardWeapon.obj
+         Release\EquipScreen.obj
+         Release\ExpEffect.obj
+         Release\FieldLength.obj
+         Release\FieldType.obj
+         Release\FirstPersonCamera.obj
+         Release\FlameBall.obj
+         Release\Floor.obj
+         Release\FloorObject_3D_Duplicate.obj
+         Release\FloorOfTheDungeon.obj
+         Release\FrameCounter.obj
+         Release\Golem.obj
+         Release\Hana.obj
+         Release\HandleCreater.obj
+         Release\HealthItem.obj
+         Release\HitBox.obj
+         Release\HitBoxUpdater.obj
+         Release\Ice.obj
+         Release\Item.obj
+         Release\ItemAbility.obj
+         Release\ItemListScreen.obj
+         Release\ItemWarehouse.obj
+         Release\Juggler.obj
+         Release\Kasya.obj
+         Release\Key.obj
+         Release\KeyConfigScreen.obj
+         Release\Kingsuraimu.obj
+         Release\Kraken.obj
+         Release\LeatherSuit.obj
+         Release\LevelUpper.obj
+         Release\LoadScreen.obj
+         Release\MessgeBox.obj
+         Release\Mimic.obj
+         Release\Miyamoto.obj
+         Release\Motion.obj
+         Release\MoveType.obj
+         Release\MoveType_RotateConverter.obj
+         Release\Mushroom.obj
+         Release\Needle.obj
+         Release\NormalEnemy.obj
+         Release\Object_2D.obj
+         Release\Object_3D_Duplicate.obj
+         Release\Obstacle.obj
+         Release\Opening.obj
+         Release\PauseMenu.obj
+         Release\Player.obj
+         Release\FieldMaterial.obj
+         Release\GameApp.obj
+         Release\Object_3D.obj
+         Release\PlayerDatas.obj
+         Release\PlayerDirectionGetter.obj
+         Release\PlayerFollow.obj
+         Release\PlayerItems.obj
+         Release\PlayerKeyConfig.obj
+         Release\PlayerWeapons.obj
+         Release\PlayerWearProtective.obj
+         Release\Position.obj
+         Release\PositionController.obj
+         Release\PositionConverter.obj
+         Release\Random.obj
+         Release\RandomMove.obj
+         Release\Save.obj
+         Release\SaveBook.obj
+         Release\Scene.obj
+         Release\SceneNames.obj
+         Release\SceneUpdater.obj
+         Release\ScreenMaterial.obj
+         Release\SlideAnimation.obj
+         Release\SmallAnimal.obj
+         Release\SmallBird.obj
+         Release\Spring.obj
+         Release\SpringThrowType.obj
+         Release\Stage.obj
+         Release\StageDataLoader.obj
+         Release\StageSelect.obj
+         Release\Stairs.obj
+         Release\StartingPreparation.obj
+         Release\State.obj
+         Release\StatesPoint.obj
+         Release\SubjectivityCamera.obj
+         Release\SwordOfTheTree.obj
+         Release\SwordsMan.obj
+         Release\Thunder.obj
+         Release\Trap.obj
+         Release\TreasureChest.obj
+         Release\TurnController.obj
+         Release\Tutorial.obj
+         Release\TutorialEnemy.obj
+         Release\WarpAnimation.obj
+         Release\Water.obj
+         Release\WaterBall.obj
+         Release\Weapon.obj
+         Release\WeaponType.obj
+         Release\WeaponWarehouse.obj
+         Release\WearProtective.obj
+         Release\WearWarehouse.obj
+         Release\Witch.obj
+         Release\WitchWearProtective.obj
+         コード生成しています。
+     1>c:\users\takashi\documents\seminalpro\scenenames.cpp(70): warning C4715: 'SceneNames::getName' : 値を返さないコントロール パスがあります。
+     1>c:\users\takashi\documents\seminalpro\playerfollow.cpp(50): warning C4715: 'PlayerFollow::getFollowDirection' : 値を返さないコントロール パスがあります。
+         コード生成が終了しました。
+     1>EffekseerForDXLib_vs2013_x86.lib(EffekseerForDXLib.obj) : warning LNK4204: 'C:\Users\TAKASHI\Documents\seminalpro\Release\vc120.pdb' に参照するモジュールのデバッグ情報がありません。デバッグ情報を無視してオブジェクトをリンクします。
+         Win32Project2.vcxproj -> C:\Users\TAKASHI\Documents\seminalpro\Release\Win32Project2.exe
+     1>プロジェクト "C:\Users\TAKASHI\Documents\seminalpro\Win32Project2.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:57.65
